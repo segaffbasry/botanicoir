@@ -50,14 +50,14 @@ Plus white. No other hues; tints are these colours with transparency. Exceptions
 
 ## Homepage sections and content counts
 
-Page height (`npm run shots`): **7,132 px at 1440** (7.9 viewports of 900), **9,085 px at 768**, **8,948 px at 375**.
+Page height (`npm run shots`): **6,868 px at 1440** (7.6 viewports of 900), **8,598 px at 768**, **8,217 px at 375**.
 
 | # | Section | Ground | Live homepage | This build | Notes |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Hero | Ink + film | 4 rotating slides | Film + headline | The slides moved to section 3 so all four are seen. Headline: the 20 Years page's strapline |
 | 2 | Intro | Husk | 1 paragraph, 1 button | Same, verbatim | Photograph from the Beyond Sustainable page |
 | 3 | Growing together | Ink | 4 slides + Our Story banner | 4 story cards + "Our story" | Heading and line from the Our Story page |
-| 4 | Our Products | Husk | 4 categories | 4 categories + 15 Format/Treatment/Application links | Illustrations from the homepage, photos from the category pages |
+| 4 | Our Products | Husk | 4 categories | 4 categories | Photos from the category pages; the homepage's illustrations sit small inside each panel (feedback, 8 Oct). Format, Treatment and Application links are in the menu and footer only |
 | 5 | 20 years | White | Heading, text, film, button | Same + founders' thanks + 18 milestones | Film opens in an overlay (youtube-nocookie); milestones from the 20 Years page |
 | 6 | Beyond Sustainable | Husk | (Our Story / Planet & People link) | Mission, 5 figures, 6 focus areas, report PDF | All figures quoted on the Beyond Sustainable page |
 | 7 | News & Events | Film still | none | 4 newest posts | From /news-events/, newest first |

@@ -1,11 +1,10 @@
 import { Icon } from "@/components/ui";
-import { catalogue, products } from "@/lib/content";
+import { catalogue } from "@/lib/content";
 
-/* Our Products, after farmminerals.com's product row: Leaf panels with the product art rising out of the top edge.
-   Here the art is the homepage's own category illustrations (multiplied onto the panel so their white ground drops
-   away) over each category page's photograph. Below, the live menu's Format, Treatment and Application lists. */
+/* Our Products, after farmminerals.com's product row: a photograph from each category page over a Leaf panel. The
+   homepage's own category illustration sits small inside the panel (multiplied so its white ground drops away), so it
+   reads as part of the box (client feedback, 8 Oct). */
 export function Products() {
-  const finders = products.groups.filter((g) => !g.href);
   return (
     <section className="products section" id="products" data-tone="light" aria-labelledby="products-title" tabIndex={-1}>
       <div className="wrap">
@@ -30,14 +29,6 @@ export function Products() {
             </li>
           ))}
         </ul>
-        <div className="finders" data-reveal="cards">
-          {finders.map((g) => (
-            <nav key={g.label} className="finder" aria-label={`Products by ${g.label.toLowerCase()}`}>
-              <p className="caps finder-head">{g.label}</p>
-              <ul>{g.links.map((l) => <li key={l.label}><a href={l.href} target="_blank" rel="noopener">{l.label}<Icon name="out" /></a></li>)}</ul>
-            </nav>
-          ))}
-        </div>
       </div>
     </section>
   );
